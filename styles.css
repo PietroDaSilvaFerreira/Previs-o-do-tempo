@@ -1,0 +1,88 @@
+:root {
+    --cor-principal: #000000;
+    --cor-de-destaque: #292828;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://picsum.photos/1920/1089?random=1);
+}
+
+#caixa-maior {
+    padding: 10px;
+    background-color: var(--cor-principal);
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 270px;
+}
+
+#caixa-media {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#pesquisar {
+    width: 16em;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: var(--cor-de-destaque);
+    color: white;
+    padding: 4px;
+    font-size: 18px;
+}
+
+#buscar {
+    border: none;
+    padding: 5px;
+    background-color: var(--cor-de-destaque);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#lupa {
+    display: flex;
+    background-color: var(--cor-de-destaque);
+    width: 18px;
+}
+
+#cidade {
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 300;
+}
+
+#temperatura {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#previsao {
+    text-transform: capitalize;
+    color: #fff;
+}
+
+#umidade {
+    margin-top: 10px;
+    color: #fff;
+}
